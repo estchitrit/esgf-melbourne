@@ -18,10 +18,6 @@ during the year `t=1987`, `t=1988` and `t=1989` respectively.
 
 ### Results
 
-Choose a suitable metric to evaluate the performance of your models. 
-Report the metric in the following table. 
-
-For each evaluation year `t`, you must report the performance considering `k=3`, `k=6` and `k=12` months of data following `t`.
 
 <table>
     <thead>
@@ -35,21 +31,25 @@ For each evaluation year `t`, you must report the performance considering `k=3`,
     <tbody>
         <tr>
             <td>1987</td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td>0.0273</td>
+            <td>0.0079</td>
+            <td>0.0386</td>
         </tr>
         <tr>
             <td>1988</td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td>0.0118</td>
+            <td>0.0071</td>
+            <td>0.0198</td>
         </tr>
         <tr>
             <td>1989</td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td>0.0190</td>
+            <td>0.0122</td>
+            <td>0.0443</td>
         </tr>
     </tbody>
-</table>
+</table
+
+
+Le model le plus précis est le model est k=6. 
+Il serait cependant interessant de voir si une modification de l architecture du réseau puisse améliorer les modèles k=3 et k=12. Le k=12 etant peut etre un peu léger pour retenir une si grande fenetre.
